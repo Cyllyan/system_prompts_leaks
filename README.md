@@ -18,6 +18,7 @@ The purpose of this repo is to document the System Prompt instructions for all t
 
 | What | Date | Link |
 |------|------|------|
+| **Claude Code GitHub plugin (MCP instructions)** | September 4, 2026 | [System prompt](Anthropic/Claude%20Code/github-plugin.md) |
 | **GPT-5.6** | July 10, 2026 | [ChatGPT (Sol, extra high)](OpenAI/gpt-5.6-sol-extra-high.md) · [Codex](OpenAI/Codex/gpt-5.6.md) |
 | **Claude Sonnet 5** | July 1, 2026 | [System prompt](Anthropic/claude-sonnet-5.md) |
 | **Claude Design (Opus 4.8 — full prompt + 48 tools + 16 skills + 9 starter sources)** | June 26, 2026 | [System prompt](Anthropic/claude-design.md) |
@@ -59,7 +60,7 @@ The purpose of this repo is to document the System Prompt instructions for all t
 | | |
 |--|--|
 | Integrations | [Cowork](Anthropic/claude-cowork.md) · [Cowork Dispatch](Anthropic/claude-cowork-dispatch.md) · [Desktop Code](Anthropic/claude-desktop-code.md) · [Design](Anthropic/claude-design.md) · [Mobile iOS](Anthropic/claude-mobile-ios.md) · [In Chrome](Anthropic/claude-in-chrome.md) · [For Excel](Anthropic/claude-for-excel.md) · [For Word](Anthropic/claude-for-word.md) · [In PowerPoint](Anthropic/claude-in-powerpoint.md) · [Default Styles](Anthropic/default-styles.md) |
-| Claude Code extras | [Glob tool](Anthropic/Claude%20Code/glob-tool.md) · [Grep tool](Anthropic/Claude%20Code/grep-tool.md) · [Deferred tools](Anthropic/Claude%20Code/deferred-tools.md) · [Docs assistant](Anthropic/Claude%20Code/claude-code-docs-assistant.md) · [Bundled skills](Anthropic/Claude%20Code/bundled-skills/) |
+| Claude Code extras | [Glob tool](Anthropic/Claude%20Code/glob-tool.md) · [Grep tool](Anthropic/Claude%20Code/grep-tool.md) · [Deferred tools](Anthropic/Claude%20Code/deferred-tools.md) · [Docs assistant](Anthropic/Claude%20Code/claude-code-docs-assistant.md) · [Bundled skills](Anthropic/Claude%20Code/bundled-skills/) · [GitHub plugin](Anthropic/Claude%20Code/github-plugin.md) |
 | Published (`claude_behavior` at release date, not updated) | [Opus 4.8](Anthropic/Official/2026-05-28-claude-opus-4.8.md) · [Opus 4.7](Anthropic/Official/2026-04-16-claude-opus-4.7.md) · [Opus 4.6](Anthropic/Official/2026-02-05-claude-opus-4.6.md) · [Sonnet 4.6](Anthropic/Official/2026-02-17-claude-sonnet-4.6.md) · [All versions](Anthropic/Official/) |
 | Without tools | [Opus 4.6](Anthropic/claude-opus-4.6-no-tools.md) · [Sonnet 4.6](Anthropic/claude-sonnet-4.6-no-tools.md) |
 | Raw prompts | [Opus 4.6](Anthropic/raw/claude-opus-4.6-raw.md) · [Opus 4.6 (no tools)](Anthropic/raw/claude-opus-4.6-no-tools-raw.md) · [Sonnet 4.6](Anthropic/raw/claude-sonnet-4.6-raw.md) · [Sonnet 4.6 (no tools)](Anthropic/raw/claude-sonnet-4.6-no-tools-raw.md) |
