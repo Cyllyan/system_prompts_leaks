@@ -49,6 +49,11 @@ Esta sesión corre en un contenedor temporal. Para que tus tareas y notas **no s
 que **commitear y hacer push** de los cambios. El agente te lo irá recordando, y puedes pedírselo
 cuando quieras: *"guarda los cambios"*.
 
+## Desde el iPhone (Siri / un toque)
+Puedes controlar el agente por voz con un atajo de iOS. Receta paso a paso en
+`mi-agente/iphone/atajo-siri.md`. La visión completa y las fases (correo, reservas, llamadas,
+proyectos…) están en `ROADMAP.md`.
+
 ## Cómo crecemos
-Lo ampliamos cada día. ¿Quieres algo nuevo (hábitos, gastos, resumen automático por la mañana,
-WhatsApp…)? Solo pídelo. Lo que vamos añadiendo queda anotado en `datos/registro.md`.
+Lo ampliamos cada día. ¿Quieres algo nuevo (correo, proyectos, el "cerebro" en la nube para el
+iPhone, hábitos, gastos…)? Solo pídelo. Lo que vamos añadiendo queda anotado en `datos/registro.md`.
