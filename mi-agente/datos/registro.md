@@ -2,6 +2,13 @@
 
 Bitácora de lo que vamos añadiendo cada día. La entrada más reciente va arriba.
 
+## 2026-11-21 — Día 3: el cerebro en la nube (Fase 2, con suscripción)
+- Servidor "cerebro" en `mi-agente/servidor/`: FastAPI que pasa tu voz a Claude Code (tu
+  suscripción, sin API key) dentro del repo, con acceso a AGENTE.md y tus datos.
+- Guía de despliegue: Claude Code + login de suscripción, Tailscale para el iPhone, y cómo
+  apuntar el atajo al servidor (respuesta en `{ "reply": ... }`).
+- Pendiente del usuario: elegir máquina siempre encendida (Mac / Raspberry / VPS) y desplegar.
+
 ## 2026-11-21 — Día 2: control desde el iPhone (Siri / un toque)
 - Receta de atajo de iOS para hablar con el agente por voz: `mi-agente/iphone/atajo-siri.md`.
 - Roadmap reorganizado por fases con la visión completa (correo, reservas, llamadas, proyectos…)

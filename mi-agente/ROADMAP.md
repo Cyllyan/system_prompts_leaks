@@ -20,14 +20,15 @@ redondo de forma 100% autónoma)
       Ver `mi-agente/iphone/atajo-siri.md`.
 - Limitación: aún no ve tus tareas/correo (eso es la Fase 2).
 
-## Fase 2 — El cerebro en la nube 💶 (próximo)
-Un pequeño servidor (FastAPI) con memoria + herramientas. El atajo del iPhone pasa a hablar con
-**tu** agente (ve tus tareas, recordatorios, notas) en vez de con un Claude genérico.
-- [ ] Servidor con endpoint `POST /agente` (texto entra → agente actúa → respuesta corta).
-- [ ] Herramientas conectadas a tus datos (añadir/listar/completar tareas, recordatorios, notas).
-- [ ] Persistencia real (base de datos o guardado en GitHub).
-- Requiere: una API key de Anthropic + alojarlo (host gratuito tipo Render/Railway, o tu propio
-  ordenador/Raspberry siempre encendido).
+## Fase 2 — El cerebro en la nube 🟡 (en curso)
+Un pequeño servidor (FastAPI) que pasa tu voz a Claude Code (tu **suscripción**, sin API key)
+dentro del repo. El atajo del iPhone pasa a hablar con **tu** agente (ve tus tareas, recordatorios,
+notas). Código y guía: `mi-agente/servidor/`.
+- [x] Servidor con endpoint `POST /agente` (texto entra → agente actúa → `{ "reply": ... }`).
+- [x] Acceso a tus datos vía Claude Code dentro del repo (lee/escribe `mi-agente/datos/`).
+- [x] Guía de despliegue (Claude Code + login de suscripción + Tailscale + atajo).
+- [ ] **Tú:** elegir máquina siempre encendida y desplegar (te doy el servicio listo).
+- [ ] Auto-commit de los datos para persistir entre reinicios.
 
 ## Fase 3 — Correo (Gmail) ✅/💶
 - [ ] Leer y **resumir** tu bandeja ("¿algo importante hoy?").
