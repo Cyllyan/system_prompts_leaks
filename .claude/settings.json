@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "Mixedbread-Grep": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/mixedbread-ai/mgrep.git"
+      }
+    }
+  }
+}
